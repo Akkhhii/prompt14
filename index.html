@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genaration Leading</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="wrapper relative w-full h-screen">
+    <img src="./public/img1.png" alt="background" class="w-full h-full object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center lg:flex-row ">
+        <nav class="w-full h-[5rem] text-white border-b-[1px] flex justify-between items-center px-4 lg:absolute lg:top-0 lg:px-[4rem]">
+            <h2 class="font-bold lg:text-2xl">Logo</h2>
+            
+            <div class="links flexw-[60%] bg-sla0 h-[100%] justify-center items-center md:visible invisible md:w-[60%] lg:w-[40%] ">
+                <ul class="font-semibold h-[100%] flex gap-[1em] justify-center items-center lg:gap-[6rem] lg:justify-end">
+                    <li class="cursor-pointer" onmouseover="this.style.textShadow='3px 3px 6px rgba(255, 255, 255, 0.7)'"
+                    onmouseout="this.style.textShadow='1px 1px 2px rgba(0, 0, 0, 0.5)'" 
+                  >Home</li>
+                  
+                    <li class="cursor-pointer" onmouseover="this.style.textShadow='3px 3px 6px rgba(255, 255, 255, 0.7)'"
+                    onmouseout="this.style.textShadow='1px 1px 2px rgba(0, 0, 0, 0.5)'">Seminars</li>
+                    <li class="cursor-pointer" onmouseover="this.style.textShadow='3px 3px 6px rgba(255, 255, 255, 0.7)'"
+                    onmouseout="this.style.textShadow='1px 1px 2px rgba(0, 0, 0, 0.5)'">Courses</li>
+                    <li class="cursor-pointer" onmouseover="this.style.textShadow='3px 3px 6px rgba(255, 255, 255, 0.7)'"
+                    onmouseout="this.style.textShadow='1px 1px 2px rgba(0, 0, 0, 0.5)'">Internships</li>
+                    <li class="cursor-pointer" onmouseover="this.style.textShadow='3px 3px 6px rgba(255, 255, 255, 0.7)'"
+                    onmouseout="this.style.textShadow='1px 1px 2px rgba(0, 0, 0, 0.5)'">Counselling</li>
+                </ul>
+            </div>
+
+            <img src="./public/menu.png" alt="" class="w-[2em] h-[2em] md:hidden md:relative absolute right-4">
+        </nav>
+        <div class="text flex flex-col bg-re-400 w-full h-[45%] items-center py-[2rem] gap-[1.7em] px-[2em] text-white md:w-full md:h-[50%] md:px-[10em] md:py-[4em] lg:w-[80%] lg:h-[80%] lg:justify-center lg:items-center lg:px-[15rem] lg:border-r-white-800 lg:border-r lg:top-[2rem] lg:relative">
+            <h2 class="text-white text-2xl text-center lg:text-4xl">Unlock Your Career Potential – Join Our Free Job Seminar!</h2>
+            <h4 class="text-white text-center lg:text-xl lg:italic">Gain insights, skills, and strategies to land your dream job. Whether you're a recent graduate, a career changer, or someone seeking growth, this seminar is for you!</h4>
+            <div class="datetime w-full bg-late-300 flex flex-col items-center gap-1 lg:text-xl">
+                <h2 class="font-semibold">Join Us On</h2>
+                <p>Date : 15/DEC/2024</p>
+                <p>Time : 15/DEC/2024</p>
+                <p>Location: IT Park, Indore</p>
+            </div>
+            <h3 class="font-semibold">*TOTALLY FREE OF COST*</h3>
+        </div>
+        <div class="info w-full h-[52%] flex flex-col items-center py-[2rem] md:h-[50%] lg:h-[100%] lg:justify-center">
+            <form action="Submit" class="w-[80%] h-[100%] text-white flex flex-col p-[2em] rounded-xl gap-[2em] text-center border-slate-200 border-2 md:w-[50%] lg:h-[60%] lg:relative lg:gap-[3.5em]">
+                <h2 class="lg:text-xl">Enter the details before it's too late</h2>
+                <input type="text " class="rounded-md h-[2em] px-4" placeholder="First name">
+                <input type="text " class="rounded-md h-[2em] px-4" placeholder="Last Name">
+                <input type="text " class="rounded-md h-[2em] px-4" placeholder="Email">
+                <input type="text " class="rounded-md h-[2em] px-4" placeholder="+91999999">
+                <button class="w-[100%] bg-blue-500 py-[0.5em] rounded-2xl text-white font-semibold lg:absolute lg:bottom-4 lg:w-[85%] cursor-pointer">Submit</button>
+            </form>
+        </div>
+    </div>
+   </div>
+</body>
+</html>
